@@ -1,0 +1,13 @@
+{
+  "name": "code4tottori",
+  "version": "0.0.0",
+  "description": "Code for Tottori",
+  "main": "code4tottori.js",
+  "author": "Code for Tottori",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-csslint": "^0.4.0",
+    "grunt-contrib-jshint": "^0.11.1"
+  }
+}
