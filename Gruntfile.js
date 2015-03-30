@@ -13,6 +13,25 @@ module.exports = function(grunt) {
 						'js/flat-ui.min.js'
 					],
 					dest: 'lib/vendor/flat-ui/'
+				}, {
+					// jquery
+					expand: true,
+					cwd: 'bower_components/jquery/dist/',
+					src: [
+						'jquery.min.js',
+						'jquery.min.map'
+					],
+					dest: 'src/main/webapp/lib/vendor/jquery/'
+				}, {
+					// bootstrap
+					expand: true,
+					cwd: 'bower_components/bootstrap/dist/',
+					src: [
+						'css/bootstrap.min.css',
+						'fonts/**',
+						'js/bootstrap.min.js'
+					],
+					dest: 'src/main/webapp/lib/vendor/bootstrap/'
 				}]
 			}
 		},
