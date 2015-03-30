@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 						'jquery.min.js',
 						'jquery.min.map'
 					],
-					dest: 'src/main/webapp/lib/vendor/jquery/'
+					dest: 'lib/vendor/jquery/'
 				}, {
 					// bootstrap
 					expand: true,
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 						'fonts/**',
 						'js/bootstrap.min.js'
 					],
-					dest: 'src/main/webapp/lib/vendor/bootstrap/'
+					dest: 'lib/vendor/bootstrap/'
 				}]
 			}
 		},
