@@ -2,7 +2,6 @@
   "name": "code4tottori",
   "version": "0.0.0",
   "description": "Code for Tottori",
-  "main": "code4tottori.js",
   "author": "Code for Tottori",
   "devDependencies": {
     "grunt-cli": "^1.2.0",
