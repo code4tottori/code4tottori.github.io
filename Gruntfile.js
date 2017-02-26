@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 				files: [{
 					// flat-ui
 					expand: true,
-					cwd: 'bower_components/flat-ui/dist/',
+					cwd: 'node_modules/flat-ui/dist/',
 					src: [
 						'css/flat-ui.min.css',
 						'fonts/**',
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 				}, {
 					// jquery
 					expand: true,
-					cwd: 'bower_components/jquery/dist/',
+					cwd: 'node_modules/jquery/dist/',
 					src: [
 						'jquery.min.js',
 						'jquery.min.map'
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 				}, {
 					// bootstrap
 					expand: true,
-					cwd: 'bower_components/bootstrap/dist/',
+					cwd: 'node_modules/bootstrap/dist/',
 					src: [
 						'css/bootstrap.min.css',
 						'fonts/**',
