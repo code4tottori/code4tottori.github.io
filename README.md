@@ -1,4 +1,4 @@
-# Code for Tottori Website
+# Code for Tottori
 
 ## URL
 
