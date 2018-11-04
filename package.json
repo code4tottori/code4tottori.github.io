@@ -4,7 +4,8 @@
   "description": "Code for Tottori",
   "author": "Code for Tottori",
   "scripts": {
-    "build": "webpack-cli"
+    "build": "webpack-cli",
+    "start": "browser-sync start --server --files *.html"
   },
   "devDependencies": {
     "webpack": "^4.24.0",
