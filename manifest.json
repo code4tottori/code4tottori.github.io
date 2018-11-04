@@ -1,0 +1,12 @@
+{
+  "short_name": "Code for Tottori",
+  "name": "Code for Tottori",
+  "icons": [{
+    "src": "/images/icons-64.png",
+    "type": "image/png",
+    "sizes": "64x64"
+  }],
+  "theme_color": "#FFFFFF",
+  "background_color": "#16A085",
+  "start_url": "/"
+}
